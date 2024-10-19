@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkeletonUpperBody
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Cylinder.001
+    m_Weight: 0
+  - m_Path: SkeletonArmature
+    m_Weight: 0
+  - m_Path: SkeletonArmature/Hips
+    m_Weight: 0
+  - m_Path: SkeletonArmature/Hips/L.UpperLeg
+    m_Weight: 0
+  - m_Path: SkeletonArmature/Hips/L.UpperLeg/L.DownLeg
+    m_Weight: 0
+  - m_Path: SkeletonArmature/Hips/L.UpperLeg/L.DownLeg/L.DownLeg_end
+    m_Weight: 0
+  - m_Path: SkeletonArmature/Hips/L.UpperLeg.001
+    m_Weight: 1
+  - m_Path: SkeletonArmature/Hips/L.UpperLeg.001/L.DownLeg.001
+    m_Weight: 1
+  - m_Path: SkeletonArmature/Hips/L.UpperLeg.001/L.DownLeg.001/L.DownLeg.001_end
+    m_Weight: 1
+  - m_Path: SkeletonArmature/Hips/R.UpperLeg
+    m_Weight: 0
+  - m_Path: SkeletonArmature/Hips/R.UpperLeg/R.DownLeg
+    m_Weight: 0
+  - m_Path: SkeletonArmature/Hips/R.UpperLeg/R.DownLeg/R.DownLeg_end
+    m_Weight: 0
+  - m_Path: SkeletonArmature/Hips/R.UpperLeg.001
+    m_Weight: 1
+  - m_Path: SkeletonArmature/Hips/R.UpperLeg.001/R.DownLeg.001
+    m_Weight: 1
+  - m_Path: SkeletonArmature/Hips/R.UpperLeg.001/R.DownLeg.001/R.DownLeg.001_end
+    m_Weight: 1
+  - m_Path: SkeletonArmature/Hips/Torso
+    m_Weight: 1
+  - m_Path: SkeletonArmature/Hips/Torso/Neck
+    m_Weight: 1
+  - m_Path: SkeletonArmature/Hips/Torso/Neck/Head
+    m_Weight: 1
+  - m_Path: SkeletonArmature/Hips/Torso/Neck/Head/Head_end
+    m_Weight: 1

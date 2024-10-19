@@ -1,0 +1,186 @@
+{
+  "name": "flags-00",
+  "columns": 16,
+  "rows": 1,
+  "width": 1152,
+  "height": 72,
+  "emojiSize": 72,
+  "emojis": [
+    {
+      "emoji": {
+        "emoji": "🏁",
+        "hexcode": "1F3C1",
+        "group": "flags",
+        "subgroups": "flag",
+        "annotation": "chequered flag",
+        "tags": "checkered, chequered, racing",
+        "openmoji_tags": "black, white, grid, racing",
+        "openmoji_author": "Aileen Gedrat",
+        "openmoji_date": "2018-11-16",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 0.6,
+        "order": 3894
+      },
+      "top": 0,
+      "left": 0,
+      "index": 0
+    },
+    {
+      "emoji": {
+        "emoji": "🚩",
+        "hexcode": "1F6A9",
+        "group": "flags",
+        "subgroups": "flag",
+        "annotation": "triangular flag",
+        "tags": "post",
+        "openmoji_tags": "",
+        "openmoji_author": "Aileen Gedrat",
+        "openmoji_date": "2018-11-16",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 0.6,
+        "order": 3895
+      },
+      "top": 0,
+      "left": 72,
+      "index": 1
+    },
+    {
+      "emoji": {
+        "emoji": "🎌",
+        "hexcode": "1F38C",
+        "group": "flags",
+        "subgroups": "flag",
+        "annotation": "crossed flags",
+        "tags": "celebration, cross, crossed, japanese",
+        "openmoji_tags": "",
+        "openmoji_author": "Laura Dworatschek",
+        "openmoji_date": "2019-05-06",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 0.6,
+        "order": 3896
+      },
+      "top": 0,
+      "left": 144,
+      "index": 2
+    },
+    {
+      "emoji": {
+        "emoji": "🏴",
+        "hexcode": "1F3F4",
+        "group": "flags",
+        "subgroups": "flag",
+        "annotation": "black flag",
+        "tags": "waving",
+        "openmoji_tags": "",
+        "openmoji_author": "Aileen Gedrat",
+        "openmoji_date": "2018-11-16",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 1,
+        "order": 3897
+      },
+      "top": 0,
+      "left": 216,
+      "index": 3
+    },
+    {
+      "emoji": {
+        "emoji": "🏳️",
+        "hexcode": "1F3F3",
+        "group": "flags",
+        "subgroups": "flag",
+        "annotation": "white flag",
+        "tags": "waving",
+        "openmoji_tags": "white",
+        "openmoji_author": "Aileen Gedrat",
+        "openmoji_date": "2018-11-16",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 0.7,
+        "order": 3899
+      },
+      "top": 0,
+      "left": 288,
+      "index": 4
+    },
+    {
+      "emoji": {
+        "emoji": "🏳️‍🌈",
+        "hexcode": "1F3F3-FE0F-200D-1F308",
+        "group": "flags",
+        "subgroups": "flag",
+        "annotation": "rainbow flag",
+        "tags": "pride, rainbow",
+        "openmoji_tags": "color",
+        "openmoji_author": "Romain Bazile",
+        "openmoji_date": "2019-09-11",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 4,
+        "order": 3900
+      },
+      "top": 0,
+      "left": 360,
+      "index": 5
+    },
+    {
+      "emoji": {
+        "emoji": "🏳️‍⚧️",
+        "hexcode": "1F3F3-FE0F-200D-26A7-FE0F",
+        "group": "flags",
+        "subgroups": "flag",
+        "annotation": "transgender flag",
+        "tags": "flag, light blue, pink, transgender, white",
+        "openmoji_tags": "LGBT, trans, queer, gender",
+        "openmoji_author": "Carlin MacKenzie",
+        "openmoji_date": "2020-01-09",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 13,
+        "order": 3902
+      },
+      "top": 0,
+      "left": 432,
+      "index": 6
+    },
+    {
+      "emoji": {
+        "emoji": "🏴‍☠️",
+        "hexcode": "1F3F4-200D-2620-FE0F",
+        "group": "flags",
+        "subgroups": "flag",
+        "annotation": "pirate flag",
+        "tags": "jolly roger, pirate, plunder, treasure",
+        "openmoji_tags": "",
+        "openmoji_author": "Aileen Gedrat",
+        "openmoji_date": "2018-11-16",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 11,
+        "order": 3906
+      },
+      "top": 0,
+      "left": 504,
+      "index": 7
+    }
+  ]
+}

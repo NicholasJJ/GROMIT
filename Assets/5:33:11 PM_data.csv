@@ -1,0 +1,2 @@
+request,retries,time,outputLen,finalOutput
+make the apple spin,0,1.811635,212,"{ ""text"": null, ""code"": ""using UnityEngine;\n\npublic class SpinApple : MonoBehaviour\n{\n    void Update()\n    {\n        transform.Rotate(Vector3.up, 100f * Time.deltaTime);\n    }\n}"", ""objectName"": ""Apple"" }"

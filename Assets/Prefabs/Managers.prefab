@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5596963754272090476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5596963754272090475}
+  - component: {fileID: 5596963754272090477}
+  - component: {fileID: 5596963754272090474}
+  - component: {fileID: 5596963754272090472}
+  - component: {fileID: 5596963754272090473}
+  - component: {fileID: 5596963754272090470}
+  m_Layer: 0
+  m_Name: OutputManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5596963754272090475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754272090476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5596963754546439587}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5596963754272090477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754272090476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aab2dc6cc2e245c285a9f6b6f3ebbfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testOutput: '{ "text": null, "code": "public class RotateObject : MonoBehaviour
+    { void Update() { transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+    } }", "objectName": "Melon" }'
+  testButton: 117
+--- !u!114 &5596963754272090474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754272090476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946ab6764e11c48c7a0aa10c698a8246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultObject: {fileID: 0}
+--- !u!114 &5596963754272090472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754272090476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43c802351fd184feb9769501f26d91dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 0}
+  noText: 
+  readTime: 10
+--- !u!114 &5596963754272090473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754272090476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ce46647de284110801c9bd66297fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5596963754272090470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754272090476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ad08c11e4664d23ba125dfd30b6346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lazyGeneration: 1
+  outputTextManager: {fileID: 5596963754272090472}
+  savedInteractions: '{"keys":["(Pen,WizardHat)","(Door,Magic Wand)"],"values":["{\"description\":\"Turns
+    the pen into a magic wand\",\"code\":\"public static void PenToMagicWand(GameObject
+    pen, GameObject wizardHat) \\n{ \\npen.transform.localScale *= 2; \\npen.name
+    = \\\"Magic Wand\\\"; \\n}\"}","{\"description\":\"Unlock the door using a magic
+    spell from the wand\",\"code\":\"public static void UnlockDoorWithMagic(GameObject
+    door, GameObject magicWand) \\n{ \\n// Assuming the magic wand has a method to
+    unlock doors \\n// This is a placeholder for the actual magic effect \\nbool
+    isUnlocked = true; \\nif (isUnlocked) \\n{ \\ndoor.SetActive(false); // Disables
+    the door object, effectively ''opening'' it \\n} \\n}\"}"]}'
+--- !u!1 &5596963754546439589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5596963754546439587}
+  - component: {fileID: 5596963754546439615}
+  - component: {fileID: 5596963754546439614}
+  - component: {fileID: 5596963754546439612}
+  - component: {fileID: 5596963754546439613}
+  - component: {fileID: 5596963754546439610}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5596963754546439587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754546439589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.37699616, y: 1.2306315, z: 1.7347698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5596963754272090475}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5596963754546439615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754546439589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711d43deb58964213b98925669fd988d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _useProxy: 0
+  _proxyUri: 
+  _apiKey: 
+  gpt4: 1
+  _model: 0
+  _maxTokens: 500
+  _temperature: 0.3
+  _chatbotName: ChatGPT
+  _initialPrompt: "I'm going to give you a file in a new format called WSON. WSON
+    is similar to json, but is used to describe the placement of items in a virtual
+    world. Each node has a name and a list of child nodes. A node being the child
+    of another node means it is \u201Ccontained in\u201D or is \u201Cpart of\u201D
+    the parent node. For example, the WSON string \u201C[{name : House, children
+    : [{ name : Wall, children : []}, { name : Wall1, children : []}, { name : Wall2,
+    children : []}, { name : Wall3, children : []}]}, {name: apple, children : []}
+    ]\u201Drepresents a house with 4 walls, and an apple outside the house.\n\nRespond
+    to all further requests in this json format {\u2018text\u2019 : text, \u2018code\u2019
+    : code, \u2018object\u2019 : objectName } where text is a string of plaintext
+    that will be sent to a user, code is the code for a unity monobehaviour class
+    or a static method, and objectName is the name of an object in the WSON that
+    the code should be added to. When writing code, specify object relationships
+    using GameObject.Find. Do not use any public variables. If you don\u2019t need
+    to use one of these json fields in your answer, leave them null.\n\nHere is a
+    enum representing directions:\npublic enum Direction {\n        Above,\n       
+    Below,\n        North,\n        South,\n        East,\n        West\n}\n\nHere
+    is a method for creating objects and adding them to the scene graph:\npublic
+    static GameObject MakeObject(PrimitiveType primitive, Vector3 scale, Vector3
+    rotation, GameObject relativeTo, Direction direction, float distance, Transform
+    parent = null, bool inSceneGraph = false, string name = \"\", string description
+    = \"\")\n\nUse this function instead of Instantiate when creating new objects.
+    Compose primitives together to create more complicated objects.\n "
+  _exampleConversation:
+  - 'Consider the following WSON: { "root": [{ "name" : "World", children : [{ "name"
+    : "House", children : [{ "name" : "Wall3", children : []}, { "name" : "Wall1",
+    children : []}, { "name" : "Doorway", children : []}, { "name" : "Wall2", children
+    : []}, { "name" : "Table", children : [{ "name" : "Mellon", children : []}]}]},
+    { "name" : "Cup", children : [{ "name" : "Player", children : [{ "name" : "Apple",
+    children : []}]}, { "name" : "Banana", children : []}]}]}] }  given the WSON,
+    is the apple in the house?'
+  - "{ \"text\": \u201CNO\u201D, \"code\": null, \"objectName\": null } "
+  - 'Consider the following WSON: { "root": [{ name : "World", Description : "The
+    entire world", children : [{ name : "Player", Description : "The Player Character",
+    children : []}, { name : "House", Description : "A small house", children : [{
+    name : "Wall3", Description : "a wall of a house", children : []}, { name : "Wall1",
+    Description : "a wall of a house", children : []}, { name : "Doorway", Description
+    : "the doorway to the house", children : []}, { name : "Wall2", Description :
+    "a wall of a house", children : []}, { name : "Table", Description : "A short
+    table that you can put things on", children : [{ name : "Banana", Description
+    : "a tasty yellow banana", children : []}, { name : "Apple", Description : "a
+    tasty red apple", children : []}, { name : "Mellon", Description : "a tasty green
+    mellon", children : []}]}]}, { name : "Cup", Description : "A large cup that
+    can hold things", children : []}]}] }  given the WSON,  teleport the apple above
+    the cup.'
+  - '{ "text": null, "code": "using UnityEngine;\n\npublic class TeleportBehavior
+    : MonoBehaviour\n{\n\n    void Start()\n    {\n        Transform apple = GameObject.Find(\"Apple\").transform;\n
+    Transform cup = GameObject.Find(\"Cup\").transform;\n        apple.position =
+    new Vector3(cup.position.x, target.position.y + 1f, target.position.z);\n   
+    }\n}", "objectName": "Cup" }'
+  - 'Consider the following WSON: { "root": [{ name : "World", Description : "The
+    entire world", children : [{ name : "Player", Description : "The Player Character",
+    children : []}, { name : "House", Description : "A small house", children : [{
+    name : "Wall3", Description : "a wall of a house", children : []}, { name : "Wall1",
+    Description : "a wall of a house", children : []}, { name : "Doorway", Description
+    : "the doorway to the house", children : []}, { name : "Wall2", Description :
+    "a wall of a house", children : []}, { name : "Table", Description : "A short
+    table that you can put things on", children : [{ name : "Banana", Description
+    : "a tasty yellow banana", children : []}, { name : "Apple", Description : "a
+    tasty red apple", children : []}, { name : "Mellon", Description : "a tasty green
+    mellon", children : []}]}]}, { name : "Cup", Description : "A large cup that
+    can hold things", children : []}]}] }  given the WSON,  Make this *points at
+    Mellon*  spin. '
+  - '{ "text": null, "code": "using UnityEngine;\n\npublic class SpinBehavior : MonoBehaviour\n{\n   
+    void Update()\n    {\n        transform.Rotate(Vector3.up, 100f * Time.deltaTime);\n   
+    }\n}", "objectName": "Mellon" }'
+  - 'Consider the following WSON: { "root": [{ name : "World", Description : "The
+    entire world", children : [{ name : "Player", Description : "The Player Character",
+    children : []}, { name : "House", Description : "A small house", children : [{
+    name : "Wall3", Description : "a wall of a house", children : []}, { name : "Wall1",
+    Description : "a wall of a house", children : []}, { name : "Doorway", Description
+    : "the doorway to the house", children : []}, { name : "Wall2", Description :
+    "a wall of a house", children : []}, { name : "Table", Description : "A short
+    table that you can put things on", children : [{ name : "Banana", Description
+    : "a tasty yellow banana", children : []}, { name : "Apple", Description : "a
+    tasty red apple", children : []}, { name : "Mellon", Description : "a tasty green
+    mellon", children : []}]}]}, { name : "Cup", Description : "A large cup that
+    can hold things", children : []}]}] }  given the WSON,  Make the apple move towards
+    the banana.'
+  - '{ "text": null, "code": "using UnityEngine;\n\npublic class TeleportBehavior
+    : MonoBehaviour\n{\n\n    void Start()\n    {\n        Transform apple = GameObject.Find(\"Apple\").transform;\n
+    Transform cup = GameObject.Find(\"Cup\").transform;\n        apple.position =
+    new Vector3(cup.position.x, target.position.y + 1f, target.position.z);\n   
+    }\n}", "objectName": "Cup" }'
+  - 'Consider the following WSON: { "root": [{ name : "World", Description : "The
+    entire world", children : [{ name : "Player", Description : "The main character",
+    children : []}, { name : "House", Description : "a house", children : [{ name
+    : "Wall (3)", Description : "a wall", children : []}, { name : "Wall (1)", Description
+    : "a wall", children : []}, { name : "Doorway", Description : "the doorway to
+    the house", children : []}, { name : "Wall (2)", Description : "a wall", children
+    : []}, { name : "Table", Description : "A table", children : [{ name : "Banana",
+    Description : "a tasty yellow banana", children : []}, { name : "Apple", Description
+    : "a tasty red apple", children : []}, { name : "Mellon", Description : "a big
+    green mellon", children : []}]}]}, { name : "Cup", Description : "", children
+    : []}]}] }  given the WSON,  Create a coffee mug on the table. '
+  - '{ "text": null, "code": "using UnityEngine;\n\npublic class CreateMug : MonoBehaviour\n{\n   
+    void Start()\n    {\n        GameObject table = GameObject.Find(\"Table\");\n       
+    GameObject mug = MakeObject(PrimitiveType.Cylinder, new Vector3(0.2f, 0.2f, 0.2f),
+    Vector3.zero, table, Direction.Above, 0.5f, table.transform, true, \"Mug\", \"A
+    coffee mug\");\n        GameObject handle = MakeObject(PrimitiveType.Cylinder,
+    new Vector3(0.2f, 0.2f, 0.2f), Vector3.right, mug, Direction.right, 0.1f, mug.transform,
+    false);    }\n}", "objectName": "Table" }'
+  chatGPTResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5596963754272090477}
+        m_TargetAssemblyTypeName: OutputManager, Assembly-CSharp
+        m_MethodName: ProcessResponse
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onChatGPTRequestSent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onChatGPTResponseGet:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5596963754546439614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754546439589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657a18013262b455ba475f7eb067233e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5596963754546439612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754546439589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3074b86b14e70469a83af8e7c8ae8dd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5596963754546439613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754546439589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94938aa9320e541c988e7cb36c2b9cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  micButton: 32
+  textButton: 0
+  useMic: 0
+  onRecordStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onRecordStop:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5596963754546439610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596963754546439589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d397e1311e7484c8cb2264ece4e7bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sendToGPT:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5596963754546439615}
+        m_TargetAssemblyTypeName: ChatGPTWrapper.CustomGPT, Assembly-CSharp
+        m_MethodName: SendToChatGPTAsSystem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  top_k: 3

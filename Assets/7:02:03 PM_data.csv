@@ -1,0 +1,3 @@
+request,retries,time,outputLen,finalOutput
+bookshelf,torch,0,1.148213,180,"{""description"":""Burns down the bookshelf with the torch"",""code"":""public static void BurnBookshelf(GameObject bookshelf, GameObject torch) \n{ \nGameObject.Destroy(bookshelf); \n}""}"
+torch,WizardHat,0,0.9170933,196,"{""description"":""The torch burns the wizard hat, causing it to disappear"",""code"":""public static void BurnWizardHat(GameObject torch, GameObject wizardHat) \n{ \nGameObject.Destroy(wizardHat); \n}""}"

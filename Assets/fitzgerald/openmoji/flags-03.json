@@ -1,0 +1,76 @@
+{
+  "name": "flags-03",
+  "columns": 16,
+  "rows": 1,
+  "width": 1152,
+  "height": 72,
+  "emojiSize": 72,
+  "emojis": [
+    {
+      "emoji": {
+        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "hexcode": "1F3F4-E0067-E0062-E0065-E006E-E0067-E007F",
+        "group": "flags",
+        "subgroups": "subdivision-flag",
+        "annotation": "flag: England",
+        "tags": "flag, gbeng",
+        "openmoji_tags": "",
+        "openmoji_author": "Ferdinand Sorg",
+        "openmoji_date": "2019-02-13",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 5,
+        "order": 4166
+      },
+      "top": 0,
+      "left": 0,
+      "index": 0
+    },
+    {
+      "emoji": {
+        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "hexcode": "1F3F4-E0067-E0062-E0073-E0063-E0074-E007F",
+        "group": "flags",
+        "subgroups": "subdivision-flag",
+        "annotation": "flag: Scotland",
+        "tags": "flag, gbsct",
+        "openmoji_tags": "",
+        "openmoji_author": "Ferdinand Sorg",
+        "openmoji_date": "2019-02-13",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 5,
+        "order": 4167
+      },
+      "top": 0,
+      "left": 72,
+      "index": 1
+    },
+    {
+      "emoji": {
+        "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+        "hexcode": "1F3F4-E0067-E0062-E0077-E006C-E0073-E007F",
+        "group": "flags",
+        "subgroups": "subdivision-flag",
+        "annotation": "flag: Wales",
+        "tags": "flag, gbwls",
+        "openmoji_tags": "",
+        "openmoji_author": "Daniel Utz",
+        "openmoji_date": "2019-02-13",
+        "skintone": "",
+        "skintone_combination": "",
+        "skintone_base_emoji": "",
+        "skintone_base_hexcode": "",
+        "unicode": 5,
+        "order": 4168
+      },
+      "top": 0,
+      "left": 144,
+      "index": 2
+    }
+  ]
+}
